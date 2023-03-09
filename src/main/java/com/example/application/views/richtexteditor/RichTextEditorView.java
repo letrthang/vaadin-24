@@ -29,9 +29,9 @@ import com.vaadin.flow.theme.lumo.LumoUtility.TextColor;
 @PageTitle("Rich Text Editor")
 @Route(value = "rich-text-editor")
 @AnonymousAllowed
-public class RichTextRichTextEditorView extends Main {
+public class RichTextEditorView extends Main {
 
-    public RichTextRichTextEditorView() {
+    public RichTextEditorView() {
         addClassNames(Display.FLEX, Flex.GROW, Height.FULL);
 
         // Editor
